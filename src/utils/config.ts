@@ -9,7 +9,7 @@ const conf = new Conf<Config>({
   projectName: 'unosend',
   defaults: {
     apiKey: '',
-    apiUrl: 'https://www.unosend.co',
+    apiUrl: 'https://api.unosend.co',
   },
 });
 
