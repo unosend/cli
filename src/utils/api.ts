@@ -26,7 +26,7 @@ export async function apiRequest<T>(
   }
 
   const { method = 'GET', body } = options;
-  const url = `${config.apiUrl}/api/v1${endpoint}`;
+  const url = `${config.apiUrl}/v1${endpoint}`;
   
   try {
     const response = await fetch(url, {
